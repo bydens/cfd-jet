@@ -1,0 +1,34 @@
+h1 {
+  color: darkred;
+}
+.wrapper {
+  width: 100%;
+}
+md-grid-list {
+  height: 880px;
+  width: 100%;
+}
+md-grid-tile {
+  border: 1px solid grey;
+}
+.left {
+}
+.left-title {
+  background: lightblue;
+  width: 295px;
+}
+
+.right {
+  /*background: lightpink;*/
+}
+.right-title {
+  width: 500px;
+}
+
+.center {
+  /*height: 620px;*/
+  /*background: lightgreen;*/
+}
+.bottom {
+  /*background: #DDBDF1;*/
+}

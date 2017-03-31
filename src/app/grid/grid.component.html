@@ -1,0 +1,45 @@
+<h1>{{title}}</h1>
+
+  <!--<md-grid-list cols="4" rowHeight="200px">-->
+    <!--<md-grid-tile-->
+      <!--*ngFor="let tile of tiles"-->
+      <!--[colspan]="tile.cols"-->
+      <!--[rowspan]="tile.rows"-->
+      <!--[style.background]="tile.color">-->
+      <!--{{tile.text}}-->
+    <!--</md-grid-tile>-->
+  <!--</md-grid-list>-->
+<div class="wrapper">
+  <md-grid-list cols="6" [gutterSize]="'8px'" rowHeight="fit">
+    <md-grid-tile
+      class="left"
+      [colspan]="1"
+      [rowspan]="2"
+    >
+      <div class="left-title">
+        Text 1
+      </div>
+    </md-grid-tile>
+    <md-grid-tile class="center" [colspan]="2" [rowspan]="1">Text 2</md-grid-tile>
+    <md-grid-tile class="right" [colspan]="1" [rowspan]="1">
+      <div class="right-title">
+        Text 3
+      </div>
+    </md-grid-tile>
+    <md-grid-tile class="bottom" [colspan]="3" [rowspan]="1">Text 4</md-grid-tile>
+  </md-grid-list>
+
+  <md-grid-list cols="4" [gutterSize]="'8px'" rowHeight="fit">
+    <md-grid-tile
+      class="left"
+      [colspan]="1"
+      [rowspan]="1"
+    >
+      <div></div>
+      Text 1
+    </md-grid-tile>
+    <md-grid-tile class="center" [colspan]="1" [rowspan]="1">Text 2</md-grid-tile>
+    <md-grid-tile class="right" [colspan]="1" [rowspan]="1">Text 3</md-grid-tile>
+    <md-grid-tile class="bottom" [colspan]="1" [rowspan]="1">Text 4</md-grid-tile>
+  </md-grid-list>
+</div>

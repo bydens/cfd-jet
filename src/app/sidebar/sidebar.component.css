@@ -1,0 +1,16 @@
+.demo-sidenav-container {
+  /*border: 3px solid black;*/
+  height: 880px;
+  border: 1px solid gray;
+  margin: 0 8px 8px 8px;
+}
+.mat-sidenav-focus-trap > .cdk-focus-trap-content {
+  width: 295px;
+  border: 1px solid gray;
+
+  /*padding: 10px;*/
+}
+
+.demo-sidenav-content {
+  padding: 15px;
+}
