@@ -44,8 +44,10 @@
   </md-sidenav>
 
   <div class="demo-sidenav-content">
-    <button md-button (click)="left.toggle()">left</button>
-    <button md-button (click)="right.toggle()">Right</button>
+    <div class="wrapp-content">
+      <button md-button (click)="left.toggle()">left</button>
+      <button md-button (click)="right.toggle()">Right</button>
+    </div>
   </div>
 
   <md-sidenav #right opened mode="side" align="end">
