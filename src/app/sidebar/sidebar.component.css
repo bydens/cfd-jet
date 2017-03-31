@@ -1,20 +1,23 @@
-.demo-sidenav-container {
-  /*border: 3px solid black;*/
+.wrapper {
+  margin: 0 auto;
+  max-width: 1560px;
   height: 880px;
-  margin: 0 8px 8px 8px;
+}
+
+.demo-sidenav-container {
+  height: 880px;
 }
 .mat-sidenav-focus-trap > .cdk-focus-trap-content {
   width: 295px;
   border: 1px solid gray;
-
-  /*padding: 10px;*/
 }
 
 .wrapp-content{
   height: 848px;
+  padding: 15px;
   border: 1px solid gray;
 }
 
 .demo-sidenav-content {
-  padding: 15px;
+  margin: 0 15px;
 }

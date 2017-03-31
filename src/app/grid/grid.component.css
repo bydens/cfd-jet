@@ -2,33 +2,39 @@ h1 {
   color: darkred;
 }
 .wrapper {
-  width: 100%;
+  max-width: 1560px;
+  margin: 0 auto;
 }
 md-grid-list {
   height: 880px;
-  width: 100%;
+  /*width: 1500px;*/
 }
 md-grid-tile {
   border: 1px solid grey;
 }
 .left {
+  min-width: 295px;
 }
 .left-title {
   background: lightblue;
-  width: 295px;
+  /*width: 295px;*/
 }
 
 .right {
-  /*background: lightpink;*/
+  min-width: 300px;
+  background: lightpink;
 }
 .right-title {
-  width: 500px;
+  /*width: 500px;*/
 }
 
 .center {
   /*height: 620px;*/
-  /*background: lightgreen;*/
+  /*min-width: 500px;*/
+  background: lightgreen;
 }
 .bottom {
-  /*background: #DDBDF1;*/
+  /*min-width: calc(295px + 300px + 500px + 16px);*/
+  background: #DDBDF1;
+  max-height: 195px;
 }

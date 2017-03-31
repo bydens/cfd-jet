@@ -38,22 +38,24 @@
 
 <!--<h2>Sidenav Already Opened</h2>-->
 
-<md-sidenav-container class="demo-sidenav-container">
-  <md-sidenav #left opened mode="side">
-    Drawer
-  </md-sidenav>
+<div class="wrapper">
+  <md-sidenav-container class="demo-sidenav-container">
+    <md-sidenav #left opened mode="side">
+      Left
+    </md-sidenav>
 
-  <div class="demo-sidenav-content">
-    <div class="wrapp-content">
-      <button md-button (click)="left.toggle()">left</button>
-      <button md-button (click)="right.toggle()">Right</button>
+    <div class="demo-sidenav-content">
+      <div class="wrapp-content">
+        <button md-button (click)="left.toggle()">left</button>
+        <button md-button (click)="right.toggle()">Right</button>
+      </div>
     </div>
-  </div>
 
-  <md-sidenav #right opened mode="side" align="end">
-    Drawer
-  </md-sidenav>
-</md-sidenav-container>
+    <md-sidenav #right opened mode="side" align="end">
+      Right
+    </md-sidenav>
+  </md-sidenav-container>
+</div>
 
 <!--<h2>Dynamic Alignment Sidenav</h2>-->
 

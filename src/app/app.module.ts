@@ -5,14 +5,16 @@ import { HttpModule } from '@angular/http';
 import { MaterialModule } from '@angular/material';
 
 import { GridComponent } from './grid/grid.component';
-import { SidebarComponent } from './sidebar/sidebar.component'
+import { SidebarComponent } from './sidebar/sidebar.component';
+import { PageComponent } from "./page/page.component";
 import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     GridComponent,
-    SidebarComponent
+    SidebarComponent,
+    PageComponent
   ],
   imports: [
     BrowserModule,

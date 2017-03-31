@@ -1,0 +1,30 @@
+.wrapper {
+  max-width: 1560px;
+  margin: 0 auto;
+}
+.wrapper div {
+  border: 1px solid lightgrey;
+}
+.col-left {
+  float: left;
+  width: 280px;
+  height: 880px;
+  background: palevioletred;
+}
+.col-right {
+  width: calc(100% - 284px);
+  float: right;
+}
+.center {
+  /*float: left;*/
+  background: cornflowerblue;
+}
+.right {
+  /*float: right;*/
+  width: 300px;
+  background: palegreen;
+}
+.bottom {
+  height: 195px;
+  background: lightyellow;
+}
