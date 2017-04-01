@@ -1,26 +1,36 @@
 .wrapper {
   max-width: 1560px;
   margin: 0 auto;
+  display: flex;
+  height: 880px;
 }
 .wrapper div {
-  border: 1px solid lightgrey;
+  /*border: 1px solid lightgrey;*/
 }
 .col-left {
-  float: left;
   width: 280px;
-  height: 880px;
+  float: left;
+  height: 100%;
   background: palevioletred;
 }
 .col-right {
-  width: calc(100% - 284px);
+  display: flex;
+  flex-direction: column;
+  flex: 1;
   float: right;
+  padding-left: 10px;
+
 }
+.right-center {
+  display: flex;
+  flex: 1;
+}
+
 .center {
-  /*float: left;*/
+  flex: 1;
   background: cornflowerblue;
 }
 .right {
-  /*float: right;*/
   width: 300px;
   background: palegreen;
 }
