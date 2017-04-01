@@ -1,25 +1,28 @@
+.top-menu {
+  background: black;
+  height: 43px;
+  width: 100%;
+  margin-bottom: 12px;
+}
 .wrapper {
   max-width: 1560px;
   margin: 0 auto;
   display: flex;
   height: 880px;
 }
-.wrapper div {
-  /*border: 1px solid lightgrey;*/
+.cell {
+  border: 1px solid #cccccc;
 }
 .col-left {
-  width: 280px;
+  min-width: 294px;
   float: left;
-  height: 100%;
-  background: palevioletred;
+  margin-right: 7px;
 }
 .col-right {
   display: flex;
   flex-direction: column;
   flex: 1;
   float: right;
-  padding-left: 10px;
-
 }
 .right-center {
   display: flex;
@@ -28,13 +31,12 @@
 
 .center {
   flex: 1;
-  background: cornflowerblue;
 }
 .right {
-  width: 300px;
-  background: palegreen;
+  min-width: 303px;
+  margin-left: 7px;
 }
 .bottom {
-  height: 195px;
-  background: lightyellow;
+  height: 194px;
+  margin-top: 7px;
 }
